@@ -1,0 +1,61 @@
+body {
+  background-image: url("./weather-wallpapers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.WeatherBox{
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 500px;
+  padding: 20px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  position: relative;
+}
+.inputbox{
+  display: flex;
+  gap:5px;
+}
+.inputbox input{
+  padding: 8px;
+}
+.details{
+  background-color: rgba(255, 255, 255, 0.589);
+  height: 80%;
+  margin: 20px;
+  justify-items: center;
+  align-content: center;
+  border-radius: 20px;
+  color: black;
+}
+.contentBlock{
+  margin-top: 15px;
+}
+.desc{
+  background-color: rgba(30, 143, 255, 0.425);
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.logoImg{
+  width: 18px;
+}
+.logoImgTemp{
+  width: 25px;
+}
+.noData{
+  font-size: 25px;
+  text-transform: capitalize;
+  color: black;
+  text-align: center;
+}
